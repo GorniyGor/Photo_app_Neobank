@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/photoItemLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivThumbnail"
+        android:layout_width="90dp"
+        android:layout_height="88dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@android:drawable/presence_online" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/blackTitle"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/ivThumbnail"
+        app:layout_constraintTop_toBottomOf="@+id/ivThumbnail"
+        tools:text="first_photo" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCreationTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/graySubtitle"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/ivThumbnail"
+        app:layout_constraintStart_toStartOf="@+id/ivThumbnail"
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
+        tools:text="11:07:44_08/09/2020" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

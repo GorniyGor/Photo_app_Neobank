@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Photo app</string>
+
+    <string name="base_error">Something goes wrong, please try again</string>
+
+    <!--Action screen-->
+    <string name="action_screen_title">Select action</string>
+    <string name="gallery_action">View photos</string>
+    <string name="photo_action">Take a photo</string>
+    <string name="action_screen_dialog_title">Select action</string>
+    <string name="action_screen_dialog_name_hint">Photo name</string>
+    <string name="action_screen_dialog_positive_action">SAVE</string>
+    <string name="action_screen_dialog_negative_action">DON\'T SAVE</string>
+
+    <!--Gallery screen-->
+    <string name="gallery_screen_title">Gallery</string>
+</resources>
