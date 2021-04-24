@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#191C1F</color>
+
+    <!--Gallery-->
+    <color name="grayLine">#CED5DB</color>
+    <color name="graySubtitle">#8B959E</color>
+    <color name="blackTitle">#191C1F</color>
+    <color name="transparentGray">#BB191C1F</color>
+    <color name="red_light">#D9CDDC</color>
+    <color name="blue_light">#CDDCD9</color>
+</resources>
